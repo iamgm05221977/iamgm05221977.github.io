@@ -34,7 +34,6 @@
   display: inline;
   border: none;
   text-align: center;
-  width: 2em;
   font-size: 1em;
   color: #43484D;
   font-weight: 600;
@@ -166,11 +165,10 @@ h1 {
   align-items: center;
   padding-top: 1em;
   text-align: center;
-  grid-template-columns: auto;
   background-image: url(../img/gafasopacidadbaja.webp);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 800px;
+  background-size: contain;
 }
 
 h2 {
