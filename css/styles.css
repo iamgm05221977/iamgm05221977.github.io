@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /*Paleta de Colores*/
 /*Fuentes*/
 /*Tamaños Fuentes extras*/
@@ -48,21 +49,25 @@
     width: 100%;
   }
 }
+
 @media screen and (min-width: 390px) {
   .col lh-lg {
     width: 100%;
   }
 }
+
 @media screen and (min-width: 360px) {
   .shopping-cart {
     width: 100%;
   }
 }
+
 @media screen and (max-width: 768px) {
   .containerpagar {
     padding: 2%;
   }
 }
+
 .column {
   float: left;
   width: 50%;
@@ -90,21 +95,25 @@
     width: 45%;
   }
 }
+
 @media screen and (max-width: 1080px) {
   .column {
     width: 90%;
   }
 }
+
 @media screen and (max-width: 768px) {
   .column {
     width: 80%;
   }
 }
+
 @media screen and (max-width: 768px) {
   .takao {
     width: 100%;
   }
 }
+
 .row3 {
   display: flex;
   flex-wrap: wrap;
@@ -129,11 +138,13 @@
     flex: 50%;
   }
 }
+
 @media screen and (max-width: 600px) {
   .row3 {
     flex-direction: column;
   }
 }
+
 body {
   font-family: "Poppins", sans-serif;
   background-color: white;
@@ -168,7 +179,7 @@ h1 {
   background-image: url(../img/gafasopacidadbaja.webp);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size:contain;
 }
 
 h2 {
@@ -222,6 +233,7 @@ li {
 .navbar-nav .nav-link.active {
   color: #000000;
 }
+
 .nav-link:hover,
 .nav-link.active:hover,
 .navbar-nav .nav-link.active:hover {
@@ -242,6 +254,7 @@ footer {
   align-items: center;
   margin-top: 50px;
 }
+
 footer .list-unstyled {
   color: #3acdcc;
   text-decoration: none;
@@ -269,6 +282,7 @@ footer .list-unstyled {
     width: 20%;
   }
 }
+
 /*Carrousel*/
 @media (min-aspect-ratio: 8/5) {
   #carouselExampleFade {
@@ -277,10 +291,12 @@ footer .list-unstyled {
     margin-bottom: 2em;
     margin-top: 2em;
   }
+
   .carousel-item img {
     height: 550px;
   }
 }
+
 form {
   display: flex;
   flex-direction: column;
@@ -320,7 +336,7 @@ input[type=submit]:hover {
   font-family: "Poppins", sans-serif;
 }
 
-input:invalid + span:after {
+input:invalid+span:after {
   content: "horario inválido";
   background-color: red;
   font-family: "Poppins", sans-serif;
@@ -331,7 +347,7 @@ input:invalid + span:after {
   align-items: center;
 }
 
-input:valid + span:after {
+input:valid+span:after {
   content: "horario válido";
   background-color: #4CAF50;
   font-family: "Poppins", sans-serif;
@@ -389,6 +405,7 @@ input[value=Pagar]:hover {
     width: 50%;
   }
 }
+
 .column1 {
   float: left;
   width: 25%;
@@ -418,25 +435,28 @@ input[value=Pagar]:hover {
     margin: 5%;
   }
 }
+
 @media screen and (min-width: 1440px) {
   .column1 {
     width: 30%;
     margin-left: 200px;
   }
 }
+
 @media screen and (max-width: 768px) {
   .column1 {
     width: 90%;
   }
 }
+
 @media screen and (max-width: 768px) {
   .ramenpic {
     width: 100%;
   }
 }
+
 .column2 {
   display: table;
-  float: left;
   width: 100%;
   padding: 1%;
 }
@@ -452,11 +472,13 @@ input[value=Pagar]:hover {
     width: 80%;
   }
 }
+
 @media screen and (max-width: 768px) {
   .column2 {
     width: 100%;
   }
 }
+
 @media screen and (max-width: 768px) {
   .mapa {
     width: 100%;
